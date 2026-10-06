@@ -1,0 +1,14 @@
+NCST SCHEDULING SYSTEM - INSTALL (XAMPP)
+
+1. Back up your database (phpMyAdmin > scheduling_system > Export).
+2. phpMyAdmin > scheduling_system > SQL tab > paste ALL of full_schema.sql > Go.
+3. Copy EVERY file and the "assets" folder from this package into your project folder
+   (C:\xampp\htdocs\<your-project>\). Click Replace for login.php, register.php, homepage.php.
+   Keep your existing: database.php, login.css, register.css, register.js, homepage.css.
+4. Append the contents of login_css_ADD_THIS.css to the bottom of your login.css.
+5. Delete: hello.php, test.php, login.js, homepage.html, admin_dashboard placeholder (replaced).
+6. Open /setup_admin.php, create your admin, then DELETE setup_admin.php.
+7. Log in as admin:
+   a) Supervisors > Add Supervisor (assign a course)
+   b) Schedules > Add Schedule (course, service, dates, times, capacity)
+   c) Log in as a student and book!

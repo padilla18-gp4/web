@@ -1,0 +1,115 @@
+*{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+
+    background-color: rgb(216, 233, 233);
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+h1,h3{
+    
+    text-align: center;
+    color: rgb(29, 71, 71);
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.name-container{
+    
+    text-align: left;
+    background: rgb(251, 251, 252);
+    padding: 40px;
+    border-radius: 20px;
+    margin-right: auto;
+    border: none;
+    box-shadow: 0px 3px 20px rgba(90, 89, 89, 0.2);
+    justify-content: center;
+    margin: 10%;
+    width: 22em;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.name-container input{
+
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    width: 20em;
+    height: 3em;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#remember{
+    margin: 0;
+    height: auto;
+    width: 15px;
+}
+
+.name-container #login{
+
+    height: 3em;
+    width: 21em;
+    border: none;
+    background-color: rgb(47, 162, 243);
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.name-container input:hover{
+
+    border: 1px solid blue;
+}
+
+input:focus{
+
+    border: 1px solid blue;
+}
+
+label{
+
+    color: rgb(29, 71, 71);
+    font-weight: bold;
+}
+
+#register{
+    text-decoration: none;
+    color: rgb(29, 71, 71);
+}
+/* APPEND to the bottom of your existing login.css
+   (these rules existed only in register.css, so the eye button was unstyled on login) */
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.name-container .password-container input {
+    width: 20em;
+    padding-right: 45px;
+}
+
+.eye-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
